@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Avenir";
-  src: url("../vendors/Avenir/Avenir Regular.ttf ") format("opentype");
+  src: url("../../vendors/Avenir/Avenir Regular.ttf ") format("opentype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: "Avenir";
-  src: url("../vendors/Avenir/Avenir Black.ttf") format("opentype");
+  src: url("../../vendors/Avenir/Avenir Black.ttf") format("opentype");
   font-weight: 700;
   font-style: normal; }
 
 @font-face {
   font-family: "Avenir";
-  src: url("../vendors/Avenir/Avenir Next LT W04 Thin.ttf") format("opentype");
+  src: url("../../vendors/Avenir/Avenir Next LT W04 Thin.ttf") format("opentype");
   font-weight: 100;
   font-style: normal; }
 
@@ -68,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(../css/img/pexels-nikolay-osmachko-229493.jpg) center;
+  background: url(../../css/img/pexels-nikolay-osmachko-229493.jpg) center;
   background-size: cover; }
 
 .section_menu {
@@ -140,6 +140,69 @@ body {
       font-weight: 700;
       text-decoration: none;
       color: #fff; }
+
+.about_section {
+  position: relative;
+  background-color: #f6f3e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; }
+
+.about_img {
+  display: block;
+  height: 600px;
+  margin: 0 250px 0 0; }
+
+.about_container {
+  display: flex;
+  flex-direction: row; }
+
+.about_heading {
+  text-align: center;
+  font-size: 10rem;
+  color: #fad965;
+  margin-top: -40px; }
+
+.about_text {
+  display: flex;
+  justify-content: center; }
+
+.about_text span {
+  display: block;
+  width: 50%; }
+  .about_text span h2 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    color: #949494;
+    margin-bottom: 15px; }
+
+.gallery_heading {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  color: #fad965;
+  margin-bottom: 15px; }
+
+.gallery_section {
+  background-color: #f6f3e4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.gallery_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+  .gallery_container img {
+    height: 350px;
+    margin: 20px;
+    background-color: #fad9 5; }
+    .gallery_container img:hover {
+      transform: zoom(1.1); }
 
 .contact_section {
   background-color: #f6f3e4;
