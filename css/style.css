@@ -205,6 +205,9 @@ body {
       transform: zoom(1.1); }
 
 @media screen and (max-width: 1500px) {
+  .about_section {
+    height: 100%;
+    padding-bottom: 100px; }
   .about_text {
     width: 100%; }
     .about_text span {
@@ -214,7 +217,8 @@ body {
       margin-bottom: 15px;
       padding: 0 50px 0 50px; }
   .gallery_section {
-    height: 120vh; }
+    height: 100%;
+    padding: 100px; }
   .gallery_heading {
     font-size: 5rem; }
   .gallery_container {
@@ -278,6 +282,12 @@ body {
   .contact_address span {
     color: #949494;
     margin: 10px 0; }
+
+@media screen and (max-width: 1500px) {
+  .contact_heading {
+    top: 20%;
+    left: 68.5%;
+    font-size: 7rem; } }
 
 .header_btn {
   display: block;
