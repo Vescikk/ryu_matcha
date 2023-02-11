@@ -204,6 +204,25 @@ body {
     .gallery_container img:hover {
       transform: zoom(1.1); }
 
+@media screen and (max-width: 1500px) {
+  .about_text {
+    width: 100%; }
+    .about_text span {
+      width: 100%; }
+    .about_text span {
+      color: #949494;
+      margin-bottom: 15px;
+      padding: 0 50px 0 50px; }
+  .gallery_section {
+    height: 120vh; }
+  .gallery_heading {
+    font-size: 5rem; }
+  .gallery_container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; } }
+
 .contact_section {
   background-color: #f6f3e4;
   display: flex;
